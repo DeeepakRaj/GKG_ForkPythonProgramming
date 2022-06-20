@@ -60,8 +60,8 @@ from unittest import result
 # a = input("Enter value of A: ")
 # b = input("Enter  value of B: ")
 
-a = int(input("Enter Value of A: "))
-b = int(input("Enter Value of B: "))
+# a = int(input("Enter Value of A: "))
+# b = int(input("Enter Value of B: "))
     # return a,b
 
     # if b > a == 0:
@@ -69,12 +69,12 @@ b = int(input("Enter Value of B: "))
     # else: 
     #     print("A is greater")
     
-if b % a == 0 :
-    print ("b is divisible by a")
-elif b + 1 == 10:
-    print ("Increment in b produces 10")
-else:
-    print ("You are in else statement")
+# if b % a == 0 :
+#     print ("b is divisible by a")
+# elif b + 1 == 10:
+#     print ("Increment in b produces 10")
+# else:
+#     print ("You are in else statement")
 
 
 # def Main():
@@ -86,3 +86,14 @@ else:
 #     # show = getInteger()
 # if __name__ == "__main__":
 #      Main()
+
+
+# function to check divisibility
+def checkDivisibility(a,b):
+    if a % b == 0:
+        print("A is divisible by B")
+    else:
+        print("A is NOT divisible by B")
+
+checkDivisibility(2,4)
+    
