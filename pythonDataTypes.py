@@ -36,18 +36,46 @@
 # Python Program to Access
 # characters of String
 
-import string
+# import string
 
-# print("Enter String: ")
-# String1 = string(input("String is : "))
-print("Initial String is : ")
-String1 = "GeeksForGeeks"
-print(String1)
+# # print("Enter String: ")
+# # String1 = string(input("String is : "))
+# print("Initial String is : ")
+# String1 = "GeeksForGeeks"
+# print(String1)
 
-# Printing First character
-print("\nFirst character of String is: ")
-print(String1[0])
+# # Printing First character
+# print("\nFirst character of String is: ")
+# print(String1[0])
 
-# Printing Last character
-print("\nLast character of String is: ")
-print(String1[-1])
+# # Printing Last character
+# print("\nLast character of String is: ")
+# print(String1[-1])
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#List
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+List = []
+print("Printing empty list")
+print(List)
+
+list1 = ['DeepakRaj']
+list2 = ['Deepak raj']
+
+print("printing list with data")
+#print(list)
+print(list1)
+print(list2)
+
+list3 = ["Deepak",19,"Raj",987654321]
+print(list3)
+print(list3[2])
+print(list3[-4])
+
+
+
+
+
+
+ 
