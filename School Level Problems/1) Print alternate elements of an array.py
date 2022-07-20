@@ -4,7 +4,8 @@
 # n is the number of elements in array
 def printAl(arr,n):
     # your code here
-
+    if(arr == n)
+        print(arr)
 
 #{ 
  # Driver Code Starts
