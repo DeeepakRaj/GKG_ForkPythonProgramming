@@ -140,16 +140,45 @@
 # print(Dict2)
 
 
-# accessing a element from a Dictionary
+# # accessing a element from a Dictionary
 
-# Creating a Dictionary
-Dict = {2: 'Raj', 'Age': '22', 3: 'Deepak'}
+# # Creating a Dictionary
+# Dict = {2: 'Raj', 'Age': '22', 3: 'Deepak'}
 
-# accessing a element using key
-print("Accessing a element using key:")
-print(Dict['Age'])
+# # accessing a element using key
+# print("Accessing a element using key:")
+# print(Dict['Age'])
 
-# accessing a element using get()
-# method
-print("Accessing a element using get:")
-print(Dict.get(3))
+# # accessing a element using get()
+# # method
+# print("Accessing a element using get:")
+# print(Dict.get(3))
+
+# print("Hello")
+
+#conditional Operator
+# a = 10
+# b = 15
+
+# min = a < b and a or b
+
+# print(min)
+
+#INPUT OUTPUT
+
+# Console
+# num1 = print("Enter the value of num1 : ",int(input()))
+# num2 = print("Enter the value of num2 :",int(input()))
+# num1 = int(input())
+# num2 = int(input())
+
+# sum = num1 + num2
+
+# print(sum)
+
+#Accepting multiple input in a single line
+
+# x, y = [int(x) for x in input().split()]
+
+# print("x = ",x,"y = ",y)
+
