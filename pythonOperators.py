@@ -188,26 +188,44 @@
 # 100 / 10 * 10 is calculated as
 # (100 / 10) * 10 and not
 # as 100 / (10 * 10)
-print(100 / 10 * 10)
+# print(100 / 10 * 10)
 
-# Left-right associativity
-# 5 - 2 + 3 is calculated as
-# (5 - 2) + 3 and not
-# as 5 - (2 + 3)
-print(5 - 2 + 3)
+# # Left-right associativity
+# # 5 - 2 + 3 is calculated as
+# # (5 - 2) + 3 and not
+# # as 5 - (2 + 3)
+# print(5 - 2 + 3)
 
-# left-right associativity
-print(5 - (2 + 3))
+# # left-right associativity
+# print(5 - (2 + 3))
 
-# right-left associativity
-# 2 ** 3 ** 2 is calculated as
-# 2 ** (3 ** 2) and not
-# as (2 ** 3) ** 2
-print(2 ** 3 ** 2)
+# # right-left associativity
+# # 2 ** 3 ** 2 is calculated as
+# # 2 ** (3 ** 2) and not
+# # as (2 ** 3) ** 2
+# print(2 ** 3 ** 2)
 
 
-# A Python program to demonstrate the use of 
-# "//" for integers
-print (5//2)
-print (-5//2)
+# # A Python program to demonstrate the use of 
+# # "//" for integers
+# print (5//2)
+# print (-5//2)
+
+#July 21, 2022 : Type conversion in python
+#Implicit conversion
+# x = 10
+# print("X is a :  ",type(x),"value")
+# y = 10.21312321
+# print("Y is a type : ", type(y))
+
+# Explicit Conversion
+# x =  "DeepakRaj"
+# y = int(x,2)
+
+# print("After converting the String type value to int with base 2: ",y)
+#print(y)
+s = "121DeepakRaj121"
+c = int(s,2)
+print ("After converting to integer base 2 : ", end="")
+print (c)
 
