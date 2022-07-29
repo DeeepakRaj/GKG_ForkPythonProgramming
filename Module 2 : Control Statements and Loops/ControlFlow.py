@@ -47,8 +47,34 @@
 
 
 #range
-i = 4
-for i in range(4,i*2+1):
- print("Value of I : ",i)
+# i = 4
+# for i in range(4,i*2+1):
+#  print("Value of I : ",i)
  
- #Completed Loops
+#Completed Loops
+ 
+#starting xrange() and range() in python
+ 
+# a = range(1,10000)
+# b = xrange(1,10000)
+# xrange is not working on python3
+ 
+# print("The return type of range() is  : ")
+# print(type(a))
+
+#Using iteration efficently :: This was confusing
+# cars = ["ASTON", "AUDI", "Suzuki"]
+# cars = [&quot;Aston&quot;, &quot;Audi&quot;, &quot;McLaren&quot;]
+# for x in cars:
+#     print x
+    
+    
+
+# Accessing items using indexes and for-in
+
+# cars = [&quot;Aston&quot;, &quot;Audi&quot;, &quot;McLaren&quot;]
+# for i in range(len(cars)):
+#     print cars[i]
+
+
+# Completed iteration in Python
