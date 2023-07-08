@@ -1,10 +1,11 @@
+# adding new comment to the code        
 #User function Template for python3
 
 # arr is the array
 # n is the number of elements in array
 def printAl(arr,n):
     # your code here
-    if(arr == n)
+    if(arr == n):
         print(arr)
 
 #{ 
